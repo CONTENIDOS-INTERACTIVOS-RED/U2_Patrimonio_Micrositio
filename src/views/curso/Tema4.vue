@@ -174,10 +174,10 @@
 
       
 
-      .bg-full-width.border-top.actividad.bg-color-actividad
-        .p-4.p-md-5
-          #Actividad                
-            <Actividad :cuestionario="cuestionario"/>
+      //- .bg-full-width.border-top.actividad.bg-color-actividad
+      //-   .p-4.p-md-5
+      //-     #Actividad                
+      //-       <Actividad :cuestionario="cuestionario"/>
 
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5

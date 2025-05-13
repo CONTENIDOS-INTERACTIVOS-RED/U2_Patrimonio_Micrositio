@@ -15,47 +15,27 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Patrimonio mundial',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Patrimonio cultural',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Patrimonio material',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Patrimonio material en Colombia',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
           },
         ],
       },
@@ -63,19 +43,19 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Patrimonio inmaterial e identidad cultural',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Recursos para la formación y cultura',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Patrimonio biocultural',
             hash: 't_3_2',
           },
         ],
@@ -84,7 +64,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Título tema',
+        titulo: 'Patrimonio Natural',
         desarrolloContenidos: true,
       },
       {
@@ -125,26 +105,60 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'UNESCO. (S/A). Cultura Proteger el patrimonio y fomentar la creatividad.',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://www.unesco.org/es/culture#:~:text=Desde%20los%20c%C3%A9lebres%20monumentos%20hist%C3%B3ricos,conducir%20a%20una%20paz%20duradera',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'UNESCO. (1972). Convención sobre la protección del patrimonio mundial, cultural y natural.',
+      link: 'https://whc.unesco.org/archive/convention-es.pdf',
+    },
+    {
+      referencia: 'UNESCO (S/A). Lista de patrimonios mundiales.',
+      link: 'https://whc.unesco.org/es/list/',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Biodiversidad',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Variedad de vida que existe en el planeta, incluyendo la diversidad de especies animales, plantas, hongos y microorganismos, así como la diversidad genética dentro de cada especie, las poblaciones y los ecosistemas donde habitan. Comprende relaciones e interacciones que estos seres vivos establecen entre sí y con su entorno natural. Es resultado de millones de años de evolución, procesos naturales y la influencia de actividades humanas.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Cultura',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Conjunto de conocimientos, creencias, costumbres, artes, leyes, valores, y hábitos compartidos por un grupo de personas, que son transmitidos de generación en generación. Es la forma de vida de una sociedad o grupo, que incluye tanto lo material como lo intangible.',
+    },
+    {
+      termino: 'Identidad cultural',
+      significado:
+        'Sentido de pertenencia a un grupo social, caracterizado por el compartir costumbres, valores, creencias y tradiciones, que se recrean y se enriquecen a través del tiempo. La cultura, por otro lado, es el conjunto de formas de vida, valores y creencias que definen a un grupo social y que se transmiten de generación en generación.',
+    },
+    {
+      termino: 'Memoria cultural',
+      significado:
+        'Forma en que una sociedad transmite y conserva su conocimiento, historia, valores y prácticas a través de generaciones. Se manifiesta en tradiciones, ritos, textos, lugares y otros símbolos.',
+    },
+    {
+      termino: 'Patrimonio',
+      significado:
+        'Conjunto de bienes, derechos y obligaciones de una persona o entidad, que pueden ser evaluados económicamente.',
+    },
+    {
+      termino: 'Patrimonio inmaterial',
+      significado:
+        'Prácticas, representaciones, expresiones, conocimientos y habilidades, así como los instrumentos, objetos y artefactos, y espacios culturales asociados, que las comunidades, los grupos y en algunos casos los individuos reconocen como parte integrante de su patrimonio cultural.',
+    },
+    {
+      termino: 'Patrimonio material',
+      significado:
+        'Patrimonio tangible, se refiere a los bienes culturales físicos, tanto muebles como inmuebles, que han sido creados por sociedades en el pasado y que son parte de su legado.',
+    },
+    {
+      termino: 'Patrimonio natural',
+      significado:
+        'Conjunto de bienes, recursos y espacios naturales que poseen un valor excepcional desde el punto de vista estético, científico, ambiental y cultural, y que han sido creados por la naturaleza a lo largo del tiempo. Incluye formaciones físicas y biológicas, como monumentos naturales, reservas de la biosfera, parques nacionales, santuarios de la naturaleza, ecosistemas, especies animales y vegetales, y paisajes que requieren protección y conservación y para el bienestar de las generaciones futuras.',
     },
   ],
 }
