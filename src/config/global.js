@@ -81,6 +81,13 @@ export default {
         ],
       },
       {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Título tema',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
