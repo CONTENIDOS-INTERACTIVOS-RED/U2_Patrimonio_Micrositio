@@ -1,10 +1,70 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Título tema'")
+  BannerInterno(:subTitulo="'1. Patrimonio mundial'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] Subtítulo tema
+    .row.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in")
+      .col-lg-8
+        .bg-color-3.p-4(data-aos="fade-left").mb-4
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 En París, del 17 de octubre al 21 de noviembre de 1972, se llevó a cabo la Conferencia General de la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura. Dicha convención plantea la disposición de declarar patrimonios culturales y naturales de la humanidad, con el objetivo de mitigar su destrucción y deterioro a causa de las amenazas de la vida social, económica y las causas naturales que alteran o ponen en peligro lo correspondiente a material e inmaterial.
+    
+        p(data-aos="fade-left").mb-4 La consideración de Patrimonio Mundial, se fundamenta en la idea de que algunos lugares y bienes mundiales son de alto valor (invaluable) y que su protección y conservación son de interés para toda la humanidad. Para su definición, la UNESCO considera su valor cultural, importancia histórica, belleza natural y representatividad de paisajes y ecosistemas.
+
+        p(data-aos="fade-left").mb-4 Actualmente, la Lista del Patrimonio Mundial de la UNESCO cuenta con 1223 lugares, distribuidos en 168 países. 
+
+
+    .bg-full-width.bg-fondo-1
+      .px-4.px-md-5.py-4
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-9
+            .bg-color-white.shadow-soft.py-4.px-lg-5
+              .row.justify-content-around.align-items-center
+                .col-md-auto
+                  img(src="@/assets/template/bg-icono-link.svg", style="width: 90px;")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h3.mb-1 Lista del Patrimonio Mundial
+                      p Estos bienes se clasifican en culturales, naturales y mixtos y pueden ser reconocidos en el siguiente enlace de consulta de World Heritage Convention - UNESCO
+                    .col-sm-auto
+                      a.boton.color-acento-botones.texto-blanco(href="https://whc.unesco.org/es/list/" target="_blank")
+                        span Ir al sitio
+                        i.fas.fa-arrow-right
+        
+
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-8
+            .bg-color-5.p-4.h-100
+              p.mb-0.text-white En América Latina y el Caribe, hay un total de 136 bienes declarados Patrimonio Mundial, algunos que además se encuentran categorizados en peligro de deterioro o pérdida irremediable. 
+
+          .col-lg-4
+            figure
+              img(src="@/assets/curso/tema1/3.png", alt="")
+
+
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-9
+            .bg-color-white.shadow-soft.py-4.px-lg-5
+              .row.justify-content-around.align-items-center
+                .col-md-auto
+                  img(src="@/assets/template/bg-icono-video.svg", style="width: 90px;")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h3.mb-1 La convención para la protección del patrimonio mundial, cultural y natural
+                      p En el siguiente enlace se amplía la explicación acerca de la convención, los acuerdos pactados y las consideraciones sobre el patrimonio mundial cultural y natural: 
+                    .col-sm-auto
+                      a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=eRdnmNtufGI" target="_blank")
+                        span Ver video
+                        i.fas.fa-arrow-right
+        
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -15,15 +75,11 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              a(href="http://efaidnbmnnnibpcajpcglclefindmkaj/https://ich.unesco.org/doc/src/2003_Convention-Ethical_principles-ES.pdf" target="_blank" rel="noopener noreferrer") UNESCO. (2003). Principios Éticos para la Salvaguardia del Patrimonio Cultural Inmaterial.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://whc.unesco.org/es/list/" target="_blank" rel="noopener noreferrer") WORLD HERITAGE CONVENTION – UNESCO. (2025). Lista de Patrimonios mundiales.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
