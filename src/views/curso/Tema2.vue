@@ -198,12 +198,19 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://colombia.co/turismo/patrimonio-de-colombia/estos-son-los-17-pueblos-de-colombia-declarados-patrimonio-cultural-del-pais#:~:text=1.,una%20t%C3%A9cnica%20orfebre%20llamada%20filigrana" target="_blank" rel="noopener noreferrer") PROCOLOMBIA (S/A). Estos son los 17 pueblos de Colombia declarados patrimonio cultural del país.
-  
-  
+                a(href="https://whc.unesco.org/es/list/285" target="_blank" rel="noopener noreferrer") WORLD HERITAGE CONVENTION – UNESCO. (2025). Conjunto monumental de Cartagena.
+
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.banrepcultural.org/biblioteca-virtual" target="_blank" rel="noopener noreferrer") BANCO DE LA REPÚBLICA. Biblioteca Luis Ángel Arango. Biblioteca Virtual.
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://whc.unesco.org/es/list/742" target="_blank" rel="noopener noreferrer") WORLD HERITAGE CONVENTION – UNESCO. (2025). Centro Histórico de Santa Cruz de Mompox.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://whc.unesco.org/es/list/744" target="_blank" rel="noopener noreferrer") WORLD HERITAGE CONVENTION – UNESCO. (2025). Parque Arqueológico de San Agustín.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://whc.unesco.org/es/list/743" target="_blank" rel="noopener noreferrer") WORLD HERITAGE CONVENTION – UNESCO. (2025). Parque Arqueológico Nacional de Tierradentro.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

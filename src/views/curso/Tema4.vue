@@ -174,10 +174,10 @@
 
       
 
-      //- .bg-full-width.border-top.actividad.bg-color-actividad
-      //-   .p-4.p-md-5
-      //-     #Actividad                
-      //-       <Actividad :cuestionario="cuestionario"/>
+      .bg-full-width.border-top.actividad.bg-color-actividad
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
 
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5
@@ -185,19 +185,59 @@
           .row.material-complementario
             .col-12.col-md-6.col-lg-7
               p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-  
+
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
+                a(href="https://www.360virtualtour.co/portfolio/the-grand-canyon-virtual-tour/" target="_blank" rel="noopener noreferrer") 360VIRTUAL TOUR.
+
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://aiiaoc.com/visita-virtual-por-las-cataratas-de-iguazu/" target="_blank" rel="noopener noreferrer") ASOCIACIÓN TERRITORIAL DE INGENIEROS INDUSTRIALES. Andalucía occidental. Visita virtual por las cataratas de Iguazú.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.behance.net/search/projects/malpelo?locale=es" target="_blank" rel="noopener noreferrer") BEHANCE. (S/A). Proyecto Malpelo.
+
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
-  
+                a(href="https://www.youtube.com/watch?v=kWjCyX1Lkmw" target="_blank" rel="noopener noreferrer") CANAL 15. (2018, 23 de enero). Patrimonio Biocultural - ¿Qué es el Patrimonio Biocultural? [Video] YouTube.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://inparques.gob.ve/cms/main/verGaleria/84" target="_blank" rel="noopener noreferrer") INPARQUES. Galería de fotografías Venezuela.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://machupicchu360.com/es/" target="_blank" rel="noopener noreferrer") MACHUPICCHU360. Visita virtual 360 Machu Picchu.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.museonacional.gov.co/Recorrido_virtual_Chiribiquete" target="_blank" rel="noopener noreferrer") MUSEO NACIONAL DE COLOMBIA. (S/A). Descubra la magia del Parque Nacional Natural Serranía de Chiribiquete en este recorrido virtual por la exposición: El Jaguar y la mariposa.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://musee.oceano.org/es/actividades/inmersion-en-la-gran-barrera-de-coral/" target="_blank" rel="noopener noreferrer") OCÉANO MÓNACO, OCÉANO PARÍS. (S/A). Inmersión en la gran barrera de coral de Australia.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="http://www.colparques.net/KATIOS" target="_blank" rel="noopener noreferrer") ORGANIZACIÓN COLPARQUES. (S/A). Parque Nacional Katios.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.elcalafate.tur.ar/parque-nacional-los-glaciares-1.htm" target="_blank" rel="noopener noreferrer") PARQUE NACIONAL LOS GLACIARES. (S/A). Tour y galería Parque Nacional los Glaciares.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.qhapaqnan-iila.com/es/i-paesi-del-qhapaq-nan/colombia/" target="_blank" rel="noopener noreferrer") QHAPAQNAN. (S/A). Recursos digitales qhapaqnan-iila.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=eRdnmNtufGI" target="_blank" rel="noopener noreferrer") SFPIE UV. (2024, 17 de mayo). La convención para la protección del patrimonio mundial, cultural y natural. [Video] YouTube.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.visittheusa.co/destination/parque-nacional-grand-canyon" target="_blank" rel="noopener noreferrer") VISIT THE USA.COM. Visita Parque Nacional Grand Cañón.
+
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
                 img(src='@/assets/componentes/material-complementario.svg', alt='')
@@ -207,7 +247,7 @@
 <script>
 import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   components: {
     Actividad,
   },
@@ -223,28 +263,29 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              'El Patrimonio Natural es la riqueza de biodiversidad en los territorios. ¿Cuál enunciado describe mejor este concepto?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Sitios históricos creados por el ser humano',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto:
+                  'Conjunto de bienes, recursos y espacios naturales con valor excepcional',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Objetos culturales del pasado',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Costumbres y tradiciones de una comunidad',
                 esCorrecta: false,
               },
             ],
@@ -254,29 +295,29 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Cuál de los siguientes NO es un patrimonio natural declarado por la UNESCO en Colombia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Parque Nacional Katios',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
+                texto: 'Santuario de Fauna y Flora de Malpelo',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Parque Nacional de Chiribiquete',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
-                esCorrecta: false,
+                texto: 'Parque Nacional Tayrona',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -285,28 +326,28 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Qué categoría de patrimonio representa el Parque Nacional Los Glaciares en Argentina?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Patrimonio Cultural',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Patrimonio Mixto',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Patrimonio Natural',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Patrimonio Inmaterial',
                 esCorrecta: false,
               },
             ],
@@ -315,28 +356,29 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'El Santuario Histórico de Machu Picchu se considera un Patrimonio:',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto: 'Cultural exclusivamente',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Natural exclusivamente',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto: 'Mixto (natural y cultural)',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'Inmaterial',
                 esCorrecta: false,
               },
             ],
@@ -346,28 +388,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              'Según la UNESCO, ¿cuántos sitios naturales están incluidos actualmente en la lista de patrimonio mundial?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: '100 sitios naturales',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: '231 sitios naturales',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: '500 sitios naturales',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: '1000 sitios naturales',
                 esCorrecta: false,
               },
             ],

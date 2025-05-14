@@ -75,11 +75,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="http://efaidnbmnnnibpcajpcglclefindmkaj/https://ich.unesco.org/doc/src/2003_Convention-Ethical_principles-ES.pdf" target="_blank" rel="noopener noreferrer") UNESCO. (2003). Principios Éticos para la Salvaguardia del Patrimonio Cultural Inmaterial.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://whc.unesco.org/es/list/" target="_blank" rel="noopener noreferrer") WORLD HERITAGE CONVENTION – UNESCO. (2025). Lista de Patrimonios mundiales.  
+              a(href="https://whc.unesco.org/es/list/" target="_blank" rel="noopener noreferrer") WORLD HERITAGE CONVENTION – UNESCO. (2025). Lista de Patrimonios mundiales.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

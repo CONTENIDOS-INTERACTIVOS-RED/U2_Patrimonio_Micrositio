@@ -336,16 +336,64 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+                a(href="https://www.banrepcultural.org/biblioteca-virtual" target="_blank" rel="noopener noreferrer") BANCO DE LA REPÚBLICA. Biblioteca Luis Ángel Arango. Biblioteca Virtual.
   
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.bibliotecanacional.gov.co/es-co/servicios/tourvirtual/bnc/index.html" target="_blank" rel="noopener noreferrer") BIBLIOTECA NACIONAL DE COLOMBIA. (S/A). Tour virtual.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://blabook.es/recursos-didacticos-sobre-festividades-y-tradiciones/" target="_blank" rel="noopener noreferrer") BLABOOK.ES. (2024). Recursos Didácticos para Festividades y Tradiciones.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://connectingculturaldiversity.com/" target="_blank" rel="noopener noreferrer") CONNECTING CULTURAL DIVERSITY. (S/A). Recursos digitales de diversidad cultural.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://educapremium.es/recursos-didacticos-para-ensenar-patrimonio-cultural-en-espana/" target="_blank" rel="noopener noreferrer") EDUCAPREMIUM (2024). Enseñar Patrimonio Cultural en España.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://formacion.scrd.gov.co/" target="_blank" rel="noopener noreferrer") Forma. (S/A). Experiencias de formación en arte, patrimonio y cultura.
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=5UtQImZIeA" target="_blank" rel="noopener noreferrer") SERVEI DE FORMACIÓ PERMANENT I INNOVACIÓ EDUCATIVA (SFPIE). (2018, 16 de julio). El Patrimonio Inmaterial de la Humanidad (UNESCO). [Video] YouTube.
   
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=H1gv4puovfA" target="_blank" rel="noopener noreferrer") RE.H COLECTIVO. (2021, 1 de octubre). Hablemos de PATRIMONIO CULTURAL INMATERIAL. [Video] YouTube.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=p5UtQImZIeA" target="_blank" rel="noopener noreferrer") El Patrimonio Inmaterial de la Humanidad (UNESCO). [Video] YouTube.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=eRdnmNtufGI" target="_blank" rel="noopener noreferrer") SFPUE UV. (2024, 17 de mayo). La convención para la protección del patrimonio mundial, cultural y natural. [Video] YouTube.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://ich.unesco.org/es/tradiciones-y-expresiones-orales-00053" target="_blank" rel="noopener noreferrer") UNESCO. (S/A). Tradiciones y expresiones orales, incluido el idioma como vehículo del patrimonio cultural inmaterial.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://ich.unesco.org/es/usos-sociales-rituales-y-00055" target="_blank" rel="noopener noreferrer") UNESCO. (S/A). Usos sociales, rituales y actos festivos.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://ich.unesco.org/es/conocimientos-relacionados-con-la-naturaleza-00056" target="_blank" rel="noopener noreferrer") UNESCO. (S/A). Conocimientos y usos relacionados con la naturaleza y el universo.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://ich.unesco.org/es/tecnicas-artesanales-tradicionales-00057" target="_blank" rel="noopener noreferrer") UNESCO. (S/A). Técnicas artesanales tradicionales.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://ich.unesco.org/es/artes-del-espectaculo-00054" target="_blank" rel="noopener noreferrer") UNESCO. (S/A). Artes del espectáculo.
+
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
                 img(src='@/assets/componentes/material-complementario.svg', alt='')
